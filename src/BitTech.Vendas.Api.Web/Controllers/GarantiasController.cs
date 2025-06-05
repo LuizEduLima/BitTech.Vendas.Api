@@ -6,7 +6,7 @@ namespace BitTech.Vendas.Api.Web.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class GarantiaController(IGarantiaServices garantiaServices) : ControllerBase
+public class GarantiasController(IGarantiaServices garantiaServices) : ControllerBase
 {
     private readonly IGarantiaServices _garantiaServices = garantiaServices;
 

@@ -6,7 +6,7 @@ namespace BitTech.Vendas.Api.Web.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class ProdutoController(IProdutoServices produtoServices) : ControllerBase
+public class ProdutosController(IProdutoServices produtoServices) : ControllerBase
 {
     private readonly IProdutoServices _produtoServices = produtoServices;
 
